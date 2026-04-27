@@ -13,7 +13,7 @@ int main() {
     int voto;
     int totalVotosValidos = 0;
 
-    cout << "Digite o numero do candidato (1 a 5) ou 0 para encerrar:\n";
+    cout << "Digite o numero do candidato (1 a 5), 0 para encerrar ou a partir de 6 para votar nulo:\n";
 
     while (true) {
         cout << "Voto: ";
